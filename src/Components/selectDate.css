@@ -1,0 +1,27 @@
+.date{
+    height: 28px;
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #70707038;
+    cursor: pointer;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2px;
+}
+
+.datePick{
+    display: flex;
+    position: absolute;
+    padding-left: 19%;
+}
+.custom-date-range{
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+    /* Move the date range picker to the right by 20 pixels */
+    transform: translate(-57px, 210px);
+}
